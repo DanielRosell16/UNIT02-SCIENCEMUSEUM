@@ -1,0 +1,25 @@
+@import "normalize";
+
+@import "variables";
+
+@import "small";
+
+@media (max-width: 550px) {
+    header h2#contenToHide { 
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    @import "medium";
+
+} /* end of media query */
+
+
+@media only screen and (min-width: 1028px) {
+
+    @import "large";
+
+} /* end of media query */
+
