@@ -1,5 +1,5 @@
     header, nav, main {
-        max-width: 1500px;
+        max-width: auto;
         margin: 0 2rem 0 2rem;
     }
     
@@ -8,10 +8,10 @@
     }
     
     nav ul {padding-left: $gutter;}
-    nav li {width:auto;}
+    nav li {width: auto;}
     nav a {padding: .5rem 1rem;}
     
-    main figure { width: 33%}
+    main figure { width: 100%}
     
     div.news {column-count: 1;}
 
