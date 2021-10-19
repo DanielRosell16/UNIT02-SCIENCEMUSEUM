@@ -407,7 +407,7 @@ body {
   font-size: 16px; }
 
 div#headerWrapper {
-  background-color: #1bf; }
+  background-color: lightblue; }
 
 header {
   padding: 1rem;
@@ -460,7 +460,7 @@ main {
   padding: 1rem; }
 
 main h1 {
-  color: #1bf;
+  color: lightblue;
   font-weight: 700; }
 
 div#heroImage {
@@ -484,7 +484,7 @@ main figcaption {
   font-size: .8rem; }
 
 footer {
-  background-color: #1bf;
+  background-color: lightblue;
   text-align: center;
   padding: 1rem 2%;
   margin: 0 auto;
