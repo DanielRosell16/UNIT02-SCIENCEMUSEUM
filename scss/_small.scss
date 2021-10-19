@@ -13,8 +13,12 @@ body {
     font-size: 16px;
 }
 
-header {
+div#headerWrapper {
     background-color: $primaryColor;
+}
+
+header {
+    
     padding: 1rem;
     display: flex;
     align-items: flex-end;
@@ -37,11 +41,13 @@ header h2{
 	font-weight: $regularWeight;
 }
 
-nav.clearfix {
-    margin: 0;
+div#navWrapper {
+    background-color: #111;
 }
 
-nav {background-color: #111;}
+
+
+
 nav ul{margin: 0 auto; padding: 0;}
 nav li {list-style-type: none;}
 nav li.active {background-color: #333}
@@ -74,11 +80,13 @@ div#heroImage {
 
 main figure img {width: 100%;} 
 main figure{
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
+    padding-bottom: 10px;
     
 }
 main figcaption {text-align: center; font-size: .8rem;}
+
 
 
 footer {
@@ -86,6 +94,7 @@ footer {
     text-align: center;
     padding: 1rem 2%;
     margin: 0 auto;
+    clear: both;
 }
 
 
